@@ -1,2 +1,2 @@
 export {environment} from './environment';
-export {HappAppComponent} from './happ.component';
+export {HappComponent} from './happ.component';

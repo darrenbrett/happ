@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   templateUrl: 'happ.component.html',
   styleUrls: ['happ.component.css']
 })
-export class HappAppComponent {
+export class HappComponent {
   title = 'happ works!';
 }

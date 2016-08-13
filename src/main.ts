@@ -1,9 +1,10 @@
-import { bootstrap } from '@angular/platform-browser-dynamic';
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { enableProdMode } from '@angular/core';
-import { HappAppComponent, environment } from './app/';
+import { environment } from './app/';
+import { HappModule } from './app/happ.module';
 
 if (environment.production) {
   enableProdMode();
 }
 
-bootstrap(HappAppComponent);
+platformBrowserDynamic().bootstrapModule(HappModule);
