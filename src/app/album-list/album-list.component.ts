@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Album } from '../album';
+// import { Album } from '../album';
 
 @Component({
   moduleId: module.id,
@@ -9,7 +9,7 @@ import { Album } from '../album';
 })
 export class AlbumListComponent implements OnInit {
 
-  album: Album[] = [];
+ // album: Album[] = [];
   albumId: number;
 
   constructor() {}

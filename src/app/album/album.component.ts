@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['album.component.css']
 })
 export class AlbumComponent implements OnInit {
-  album;
+// album;
   albumId: number;
   constructor() {}
 

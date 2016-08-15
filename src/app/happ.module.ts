@@ -6,6 +6,7 @@ import { NavbarComponent } from './navbar';
 import { HomeComponent } from './home';
 import { AlbumComponent } from './album';
 import { AlbumListComponent } from './album-list';
+// import { Album } from './album';
 
 @NgModule({
     declarations: [HappComponent, OtherComponent, NavbarComponent,

@@ -1,2 +1,2 @@
 export { AlbumComponent } from './album.component';
-export { Album } from './album';
+// export { Album } from './album';
